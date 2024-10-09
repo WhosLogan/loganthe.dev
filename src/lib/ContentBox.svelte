@@ -2,6 +2,7 @@
     let className = "";
     let title = "";
 
+    // noinspection ReservedWordAsName
     export {className as class, title};
 </script>
 
