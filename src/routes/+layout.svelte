@@ -6,7 +6,7 @@
     <title>Logan's Portfolio</title>
 </svelte:head>
 
-<div class="min-h-screen relative">
+<div class="min-h-screen flex flex-col">
     <div class="mb-4">
         <div class="flex justify-center">
             <div class="flex flex-col md:flex-row md:space-x-40 mt-5 border-b w-3/4 md:w-1/2
@@ -22,7 +22,7 @@
         </div>
         <slot />
     </div>
-    <footer class="absolute items-center justify-center flex bottom-0 h-10 w-full">
+    <footer class="mt-auto items-center justify-center flex h-10 w-full">
         <p class="text-center text-white/90">Created with &hearts; by Logan</p>
     </footer>
 </div>
