@@ -6,7 +6,7 @@
 </script>
 
 <a href="{link}" target="_blank" rel="noopener noreferrer">
-    <div class="p-5 bg-neutral-800 hover:bg-neutral-700/60 h-40 flex flex-col rounded max-w-96">
+    <div class="p-5 bg-neutral-800 hover:bg-neutral-700/60 h-48 flex flex-col rounded max-w-96 space-y-4">
         <p class="font-semibold text-lg">{title}</p>
         <p class="mt-2">{description}</p>
         <div class="mt-auto flex space-x-4 items-center">
