@@ -1,8 +1,9 @@
 <script>
     import ContentBox from "$lib/ContentBox.svelte";
+    import { fade } from 'svelte/transition';
 </script>
 
-<div class="flex flex-col items-center mt-8">
+<div class="flex flex-col items-center mt-8" in:fade>
     <h1 class="mb-8 text-xl font-bold">Contact Me</h1>
     <ContentBox title="Contact Info">
         <p>You may contact me via the following methods</p>
