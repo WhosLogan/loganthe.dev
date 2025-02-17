@@ -1,5 +1,7 @@
 <script>
     import "../app.css";
+
+    let { children } = $props();
 </script>
 
 <svelte:head>
@@ -20,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <slot />
+        {@render children?.()}
     </div>
     <footer class="mt-auto items-center justify-center flex h-10 w-full">
         <p class="text-center text-white/90">Created with &hearts; by Logan</p>

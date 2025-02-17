@@ -1,6 +1,7 @@
 <script>
     import ContentBox from "$lib/ContentBox.svelte";
 </script>
+
 <div class="flex flex-col items-center mt-8">
     <h1 class="mb-8 text-xl font-bold">Contact Me</h1>
     <ContentBox title="Contact Info">

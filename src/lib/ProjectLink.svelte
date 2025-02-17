@@ -1,8 +1,10 @@
 <script>
-    export let title;
-    export let description;
-    export let link;
-    export let lang;
+    let {
+        title,
+        description,
+        link,
+        lang
+    } = $props();
 </script>
 
 <a href="{link}" target="_blank" rel="noopener noreferrer">

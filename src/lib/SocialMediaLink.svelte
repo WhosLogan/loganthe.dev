@@ -1,7 +1,5 @@
 <script>
-    export let title;
-    export let link;
-    export let image;
+    let { title, link, image } = $props();
 </script>
 
 <a href="{link}" target="_blank" rel="noopener noreferrer" class="hover:bg-neutral-700/70 w-full flex items-center space-x-3 px-3 py-2 rounded">
