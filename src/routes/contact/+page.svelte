@@ -3,6 +3,10 @@
     import { fade } from 'svelte/transition';
 </script>
 
+<svelte:head>
+    <meta name="description" content="Get in contact with Logan for development work or general purpose communication." />
+</svelte:head>
+
 <div class="flex flex-col items-center mt-8" in:fade>
     <h1 class="mb-8 text-xl font-bold">Contact Me</h1>
     <ContentBox title="Contact Info">

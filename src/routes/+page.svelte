@@ -5,6 +5,10 @@
     import {fade} from "svelte/transition";
 </script>
 
+<svelte:head>
+    <meta name="description" content="Logan is a professional developer with years of experience in the field." />
+</svelte:head>
+
 <div class="flex flex-col items-center mt-8" in:fade>
     <h1 class="mb-8 text-xl font-bold">Welcome to my portfolio</h1>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mx-3">
