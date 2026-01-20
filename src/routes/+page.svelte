@@ -22,8 +22,12 @@
         </ContentBox>
         <ContentBox title="Projects" class="md:max-w-none md:col-span-2">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <ProjectLink title="Lolang" description="A custom coding language and virtual machine"
+                             link="https://github.com/WhosLogan/lolang" lang="go" />
                 <ProjectLink title="Cloak" description="An easy to learn from .NET obfuscator"
                              link="https://github.com/WhosLogan/Cloak" lang="csharp" />
+                <ProjectLink title="FTP Client" description="A custom FTP client made from scratch"
+                             link="https://github.com/WhosLogan/ftpclient" lang="go" />
                 <ProjectLink title="loganthe.dev" description="My personal portfolio (this exact website!)"
                              link="https://github.com/WhosLogan/loganthe.dev" lang="ts" />
                 <ProjectLink title="OneUpload" description="An easy way to receive uploaded files from users"
