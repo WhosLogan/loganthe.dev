@@ -13,7 +13,11 @@
         <p class="mt-2">{description}</p>
         <div class="mt-auto flex space-x-4 items-center">
             <img class="w-10" src="/assets/github.svg" alt="Github Logo" />
-            <img class="w-10" src="/assets/lang-{lang}.svg" alt="{lang} Logo" />
+            {#if lang === 'go'}
+                <img class="w-14 h-14 scale-x-150 scale-y-150" src="/assets/lang-{lang}.svg" alt="{lang} Logo" />
+            {:else}
+                <img class="w-10" src="/assets/lang-{lang}.svg" alt="{lang} Logo" />
+            {/if}
         </div>
     </div>
 </a>
